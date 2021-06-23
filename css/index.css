@@ -65,10 +65,18 @@ a{
 .cart-item .bx{
   font-size: 25px;
 }
-
+.site-logo{
+  height: 45px !important;
+  width: auto !important;
+}
+.footer-logo img{
+  filter: brightness(100);
+  margin-bottom: 15px;
+}
 @media screen and (max-width: 768px) {
   .site-logo{
-    width: 100px !important;
+    height: 40px !important;
+    width: auto !important;
   }
   .navbar-toggler{
     padding: 5px 10px !important;

@@ -54,19 +54,28 @@ $(document).ready(function(){
 
     // about page counter
 
-  $('.counter').each(function(){
-    $(this).prop("Counter", 0).animate({
-      Counter: $(this).text()
-    },
-    {
-      duration: 3500,
-      easing: 'swing',
-      step: function(now){
-        $(this).text(Math.ceil(now)+'+')
-      }
+  $(window).scroll(function(){
+    let CounterPosition = $(document).scrollTop();
+    console.log(CounterPosition);
+
+    if(CounterPosition > 1990){
+
+      $('.counter').each(function(){
+        $(this).prop("Counter", 0).animate({
+          Counter: $(this).text()
+        },
+        {
+          duration: 3500,
+          easing: 'swing',
+          step: function(now){
+            $(this).text(Math.ceil(now)+'+')
+          }
+        }
+        )
+      });
+
     }
-    )
-  });
+  })
 
     // about page client say carousel
 
