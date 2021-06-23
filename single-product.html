@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is an E-commerce demo webiste. Salse your product on online. Too simple just upload your product and promote your business over night. Awesome!">
+  <meta name="keywords" content="ecommerce, e-commerce, bootstrap, demo ecommerce webiste">
+  <link rel="shortcut icon" href="./img/favicon/ashik.ico" type="image/x-icon">
+  <title>Women Shoppe E-commerce Website</title>
+
+  <!-- BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- BI -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- VB -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.css" integrity="sha512-e+0yqAgUQFoRrJ4pZigQXpOE0S7J9IGwmgH801h4H5ODqOCG8/GRfXHQ+9ab754NL79O7wDwdjwY3CcU8sEANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- OC -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- slice -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+  
+
+
+  <!-- top bar -->
+  <header class="header py-1 bg-3" id="header">
+    <div class="container ">
+      <!-- desktop top bar -->
+      <div class="d-none d-lg-block">
+        <div class="d-flex justify-content-between align-items-center">
+          <ul class="list-unstyled p-0 m-0">
+            <li class="d-inline-block me-3"><span class="fs-13 text-light">
+              <i class="bx bx-time me-1"></i>Visit time: Mon-Sat 9:00-19:00
+            </span></li>
+            <li class="d-inline-block me-3"><span class="fs-13">
+              <a href="#" class="text-light text-decoration-none"><i class='bx bx-headphone me-1'></i>Call us now: +01 035-477-5588</a>
+            </span></li>
+          </ul>
+  
+          <ul class="list-unstyled p-0 m-0">
+            <li class="d-inline-block me-2">
+              <div class="dropdown">
+                <button class="btn text-light shadow-none dropdown-toggle fs-13" type="button" id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./img/lang/uk.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;"> English
+                </button>
+                <ul class="dropdown-menu rounded-0" aria-labelledby="language">
+                  <li class="mb-3 px-3">
+                    <select class="form-select shadow-none" aria-label="Default select example">
+                      <option selected>$ USD</option>
+                      <option value="1">৳ BDT</option>
+                      <option value="2">UR</option>
+                      <option value="3">BC</option>
+                    </select>  
+                  </li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/flag-400.png" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Bangla</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/sp.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Espanish</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/fr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">France</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/gr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Danish</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="d-inline-block me-3"><a href="./contact.html" class="text-light text-decoration-none"><i class="bx bx-link text-light me-1"></i><span class="text-light fs-13">Contact</span></a></li>
+            <li class="d-inline-block me-3 text-light fs-13">
+              <a class="text-light" data-bs-toggle="modal" href="#login-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+                <i class="bx bxs-user me-1"></i> Login
+              </a></li>
+            <li class="d-inline-block me-3 fs-15 text-light">
+              <a href="#" class="text-light"><i class="bx bxl-facebook me-3"></i></a>
+              <a href="#" class="text-light"><i class="bx bxl-twitter me-3"></i></a>
+              <a href="#" class="text-light"><i class="bx bxl-instagram "></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- mobile top bar -->
+      <div class="d-block d-lg-none">
+        <div class="d-flex justify-content-between align-items-center">
+          <ul class="list-unstyled p-0 m-0">
+            <li class="d-inline-block me-2">
+              <div class="dropdown">
+                <button class="btn text-light shadow-none dropdown-toggle fs-13" type="button" id="mb-language" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./img/lang/uk.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;"> English
+                </button>
+                <ul class="dropdown-menu rounded-0" aria-labelledby="mb-language">
+                  <li class="mb-3 px-3">
+                    <select class="form-select shadow-none" aria-label="Default select example">
+                      <option selected>$ USD</option>
+                      <option value="1">৳ BDT</option>
+                      <option value="2">UR</option>
+                      <option value="3">BC</option>
+                    </select>  
+                  </li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/flag-400.png" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Bangla</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/sp.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Espanish</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/fr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">France</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/gr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Danish</a></li>
+                </ul>
+              </div>
+            </li>
+            </ul>
+          <ul class="list-unstyled p-0 m-0">
+           
+            <li class="d-inline-block me-3"><a href="./contact.html" class="text-light text-decoration-none"><i class="bx bx-link text-light me-1"></i><span class="text-light fs-13">Contact</span></a></li>
+            <li class="d-inline-block me-3 text-light fs-13">
+              <a class="text-light" data-bs-toggle="modal" href="#login-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+                <i class="bx bxs-user me-1"></i> Login
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ! top bar -->
+
+
+
+  <!-- navigation menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-none d-lg-block">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/logo.png" alt="" class="img-fluid site-logo">
+      </a>
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-15 fw-md">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./posts.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faqs.html">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="list-unstyled m-0 p-0 cart-item">
+        <li class="d-inline-block me-2">
+          <a class="text-light" data-bs-toggle="modal" href="#search-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+            <i class="bx bx-search clr-3"></i>
+          </a>
+        </li>
+        <li class="d-inline-block me-2">
+          <a href="./account.html">
+            <i class="bx bx-user-circle clr-3"></i></a>
+        </li>
+        <li class="d-inline-block me-2">
+          <a href="#"><i class="bx bx-heart clr-3"></i></a>
+        </li>
+        <li class="d-inline-block me-2">
+          <button class="position-relative btn rounded-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart-pop-up" aria-controls="cart-pop-up"><i class="bx bxs-cart clr-3"></i><sup class="position-absolute top-0 left-100 translate-middle-y bg-1 text-white fw-md rounded-circle" style="font-size: 10px;padding: 10px 6px;">7</sup></button>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <!-- mobile menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-block d-lg-none">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/logo.png" alt="" class="img-fluid site-logo">
+      </a>
+      
+      <ul class="list-unstyled m-0 ms-auto me-4 p-0 cart-item">
+        <li class="d-inline-block me-2">
+          <a class="text-light" data-bs-toggle="modal" href="#search-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+            <i class="bx bx-search clr-3"></i>
+          </a>
+        </li>
+        <li class="d-inline-block me-2">
+          <a href="./account.html"><i class="bx bx-user-circle clr-3"></i></a>
+        </li>
+        <li class="d-inline-block me-2">
+          <button class="position-relative btn rounded-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart-pop-up" aria-controls="cart-pop-up"><i class="bx bxs-cart clr-3"></i><sup class="position-absolute top-0 left-100 translate-middle-y bg-1 text-white fw-md rounded-circle" style="font-size: 10px;padding: 10px 6px;">7</sup></button>
+        </li>
+      </ul>
+
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="navbar-nav mb-2 mb-lg-0 fs-15 fw-md">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./posts.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faqs.html">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+        <!-- search pop up -->
+        <div class="modal fade" style="background: #000000cc;" id="search-pop-up" aria-hidden="true" aria-labelledby="searchModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered bg-transparent  modal-lg">
+            <div class="modal-content bg-transparent p-md-5 p-4">
+              <div class="modal-header  border-bottom mb-4 pb-2 ">
+                <h5 class="modal-title fs-2 text-light fw-bold m-0" id="searchModal">Search</h5>
+                <button type="button" class="btn-close text-light btn shadow-none fs-14" data-bs-dismiss="modal" aria-label="Close">Close</button>
+              </div>
+              <div class="modal-body mb-4">
+                
+                <form action="" method="post">
+                  <div class="row">
+                    <div class="col-10 px-0">
+                      <input type="text" name="search-fld" id="search-fld" class="form-control bg-transparent text-light border-end-0 fs-15 shadow-none rounded-0 text-lowercase" style="letter-spacing: 1px; word-spacing: 5px;" placeholder="What are you looking for?">
+                    </div>
+                    <div class="col-2 px-0">
+                      <button type="submit" id="submit-search" class="btn shadow-none border text-light rounded-0" style="padding: 5px 20px;"><i class="bx bx-search fs-15"></i></button>
+                    </div>
+                  </div>
+                </form>
+                
+              </div>
+              <div class="border-top text-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- login pop up -->
+        <div class="modal fade" id="login-pop-up" aria-hidden="true" aria-labelledby="logInModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="logInModal">Account Log In</h5>
+                <button type="button" class="btn-close shadow-none fs-14" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+
+                <div class="form-area py-5">
+                  <form action="" class="login-form" name="login-form" onsubmit="logInTry(); return false">
+                  <div class="row">
+
+                    <div class="col-12">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-user text-danger"></i></div>
+                        <input type="email" name="loginUsername" class="form-control shadow-none" id="login-username" placeholder="Username or Email">
+                      </div>
+                    </div>
+                    <div class="col-12 my-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-lock text-danger"></i></div>
+                        <input type="password" name="loginPassword" class="form-control shadow-none" id="login-password" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="login-remember">
+                        <label class="form-check-label" for="login-remember">
+                          Remember me on this devise
+                        </label>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="d-grid my-4">
+                    <input type="submit" id="LogIn" value="Log In" class="btn shadow-none btn-outline-danger rounded-pill text-uppercase fw-md fs14">
+                  </div>
+                  <div class="error-box text-center my-4 p-3"><span class="text-danger fw-md small"></span></div>
+                  </form>
+                  <a href="#" class="text-decoration-none my-4">Forgot Your Password?</a>
+                </div>
+                
+              </div>
+              <div class="modal-footer">
+                <span class="fw-md me-2">Not a Member? </span>
+                <button class="btn text-success text-uppercase fw-bold shadow-none" data-bs-target="#signup-pop-up" data-bs-toggle="modal" data-bs-dismiss="modal">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- sign-up pop up -->
+        <div class="modal fade" id="signup-pop-up" aria-hidden="true" aria-labelledby="signUpModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="signUpModal">Create Your Account</h5>
+                <button type="button" class="btn-close shadow-none fs-14" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="form-area py-5">
+                  <form action="" class="login-form">
+                  <div class="row">
+
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                      <div class="input-group">
+                        <div class="input-group-text"><img src="./img/name.png" alt="" class="img-fluid"></div>
+                        <input type="text" name="newFName" class="form-control shadow-none" id="newFName" placeholder="First Name">
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="input-group">
+                        <input type="text" name="newLName" class="form-control shadow-none" id="newLName" placeholder="Last Name">
+                        <div class="input-group-text"><img src="./img/name.png" alt="" class="img-fluid"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-user text-success"></i></div>
+                        <input type="text" name="newUsername" class="form-control shadow-none" id="newUsername" placeholder="Username">
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-envelope text-success"></i></div>
+                        <input type="email" name="newEmail" class="form-control shadow-none" id="newEmail" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-lock text-danger"></i></div>
+                        <input type="password" name="newPassword" class="form-control shadow-none" id="newPassword" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-lock text-danger"></i></div>
+                        <input type="password" name="confirmPassword" class="form-control shadow-none" id="confirmPassword" placeholder=" Confirm Password">
+                      </div>
+                        <p class="py-3 text-center text-danger fs-13" id="pasErr"></p>
+                      </div>
+                    <div class="col-12 mt-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="aggree-signUp">
+                        <label class="form-check-label" for="aggree-signUp">
+                          By signing up, you agree to our <a href="#" class="fw-bold">Terms of service</a> and our <a href="#" class="fw-bold">Privacy policy</a>.
+                        </label>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="d-grid my-4">
+                    <input type="submit" id="SignUp" value="Sign Up" class="btn shadow-none btn-outline-success rounded-pill text-uppercase fw-md fs14">
+                  </div>
+                  </form>
+                  
+                  <div class="signErr-box text-center text-danger fw-md py-3 fs-15">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <span class="fw-md">Already hvae an account? </span>
+                <button class="btn text-primary text-uppercase fw-bold shadow-none" data-bs-target="#login-pop-up" data-bs-toggle="modal" data-bs-dismiss="modal">Log In</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- cart pop up -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="cart-pop-up" aria-labelledby="cart-pop-upLabel">
+          <div class="offcanvas-header border-bottom">
+            <h6 class="mt-3 fw-md" id="cart-pop-upLabel">Your Cart (2)</h6>
+            <button type="button" class="btn-close text-reset shadow-none fs-15" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body mt-3">
+
+            <!-- product item -->
+            <div class="d-flex">
+              <div class="image me-2">
+                <img src="./img/product/product-1.jpg" alt="" class="img-cart-pop">
+              </div>
+              <div class="title">
+                <h6><a href="./single-product.html" class="clr-2a mb-1 fs-15 fw-md text-capitalize">Cotton floral print Dress</a></h6>
+                <span class="fs-13 clr-1 fw-md">$110</span>
+                <div class="cart-btn d-flex justify-content-between mt-2">
+                  <input type="number" name="qty" id="cartPopQTY" value="1" class="form-control qty-input shadow-none d-inline-block border-dark rounded-0" style="width: 90px;">
+                  <button class="btn rounded-0 btn-outline-danger fs-13 ms-2"><i class="bx bx-x-circle me-1"></i>Remove</button>
+                </div>
+              </div>
+            </div>
+            <!-- product item -->
+            <div class="d-flex mt-3 border-top pt-3">
+              <div class="image me-2">
+                <img src="./img/product/product-1.jpg" alt="" class="img-cart-pop">
+              </div>
+              <div class="title">
+                <h6><a href="./single-product.html" class="clr-2a mb-1 fs-15 fw-md text-capitalize">Cotton floral print Dress</a></h6>
+                <span class="fs-13 clr-1 fw-md">$110</span>
+                <div class="cart-btn d-flex justify-content-between mt-2">
+                  <input type="number" name="qty" id="cartPopQTY" value="1" class="form-control qty-input shadow-none d-inline-block border-dark rounded-0" style="width: 90px;">
+                  <button class="btn rounded-0 btn-outline-danger fs-13 ms-2"><i class="bx bx-x-circle me-1"></i>Remove</button>
+                </div>
+              </div>
+            </div>
+            <!-- subtotal -->
+            <div class="border shadow-sm mt-3">
+              <table class="table mb-0">
+                <tbody class="px-3">
+                  <tr>
+                    <td class="text-start py-2 clr-2 fw-md">Subtotal</td>
+                    <td class="text-end py-2 clr-rat">$ <span class="subtotal" id="cartSubtotal">270</span></td>
+                  </tr>
+                  <tr>
+                    <td class="text-start py-2 clr-2 fw-md">Taxes</td>
+                    <td class="text-end py-2 clr-rat">$ <span class="subtotal" id="cartSubtotal">2.2</span></td>
+                  </tr>
+                  <tr>
+                    <td class="text-start py-3 clr-3 fw-md">Grand Total</td>
+                    <td class="text-end py-3 clr-rat fw-md">$ <span class="subtotal" id="cartSubtotal">272.2</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- checkout button -->
+            <div class="d-grid mt-3">
+              <a href="./chekout.html" class="btn btn-primary rounded-0 py-2 shadow-none fs-13 text-uppercase">Proceed to checkout</a>
+            </div>
+            <div class="d-grid mt-3">
+              <a href="./cart.html" class="btn btn-outline-dark rounded-0 py-2 shadow-none fs-13 text-uppercase">View Cart</a>
+            </div>
+
+          </div>
+        </div>
+  
+  
+  <!-- ! navigation menu -->
+
+  <main class="main-content" id="main-content">
+
+    <!-- breadcamp -->
+    <section class="breadcamp py-3 bg-light border-bottom">
+      <div class="container text-end">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+          <ol class="breadcrumb m-0">
+            <li class="breadcrumb-item fs-13 fw-normal"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active fs-13 fw-normal" aria-current="page"><a href="./category.html" class="clr-2">Women</a></li>
+            <li class="breadcrumb-item active fs-13 fw-normal" aria-current="page">Fine-knit sweater</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    <!-- ! breadcamp -->
+
+
+
+    <!-- product main area -->
+    <section class="productMain py-5" id="productMain">
+      <div class="container">
+        
+        <div class="row">
+          <!-- product image -->
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="slider-for">
+              <!-- <a class="singleProductGellay" data-gall="myGallery" href="./img/single-pro/product-x-6.jpg"><img src="./img/single-pro/product-x-6.jpg" class="img-fluid" alt=""></a>
+              <a class="singleProductGellay" data-gall="myGallery" href="./img/single-pro/product-x-6.jpg"><img src="./img/single-pro/product-x-6.jpg" class="img-fluid" alt=""></a>
+              <a class="singleProductGellay" data-gall="myGallery" href="./img/single-pro/product-x-6.jpg"><img src="./img/single-pro/product-x-6.jpg" class="img-fluid" alt=""></a>
+              <a class="singleProductGellay" data-gall="myGallery" href="./img/single-pro/product-x-6.jpg"><img src="./img/single-pro/product-x-6.jpg" class="img-fluid" alt=""></a>
+              <a class="singleProductGellay" data-gall="myGallery" href="./img/single-pro/product-x-6.jpg"><img src="./img/single-pro/product-x-6.jpg" class="img-fluid" alt=""></a>
+              <a class="singleProductGellay" data-gall="myGallery" href="./img/single-pro/product-x-6.jpg"><img src="./img/single-pro/product-x-6.jpg" class="img-fluid" alt=""></a>
+                       -->
+                       <img src="./img/single-pro/product-x-1.jpg"   class="me-1 img-fluid" alt="">
+                       <img src="./img/single-pro/product-x-2.jpg"   class="me-1 img-fluid" alt="">
+                       <img src="./img/single-pro/product-x-3.jpg"   class="me-1 img-fluid" alt="">
+                       <img src="./img/single-pro/product-x-4.jpg"   class="me-1 img-fluid" alt="">
+                       <img src="./img/single-pro/product-x-5.jpg"   class="me-1 img-fluid" alt="">
+                       <img src="./img/single-pro/product-x-6.jpg"   class="me-1 img-fluid" alt="">
+            </div>
+            <div class="sliderItem py-3">
+              <img src="./img/single-pro/product-x-1.jpg"   class="me-1 img-fluid" alt="">
+              <img src="./img/single-pro/product-x-2.jpg"   class="me-1 img-fluid" alt="">
+              <img src="./img/single-pro/product-x-3.jpg"   class="me-1 img-fluid" alt="">
+              <img src="./img/single-pro/product-x-4.jpg"   class="me-1 img-fluid" alt="">
+              <img src="./img/single-pro/product-x-5.jpg"   class="me-1 img-fluid" alt="">
+              <img src="./img/single-pro/product-x-6.jpg"   class="me-1 img-fluid" alt="">
+              
+            </div>
+          </div>
+
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="product-details">
+
+              <p class="fs-15 mb-2 clr-2">Brand Name</p>
+              <h3 class="fs-4 fw-md">Fine-knit sweater</h3>
+
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+                <span class="small ms-1 clr-2 fs-11">(10 Reviews)</span>
+              </div>
+
+              <p class="product-short-descrip fs-15 clr-2 mt-3">
+                Lorem ipsum dolor sit amet, consectetur adipisic elit eiusm tempor incidid ut labore et dolore magna aliqua. Ut enim ad minim venialo quis nostrud exercitation ullamco
+              </p>
+              
+              <div class="size pt-4">
+                <h6 class="fs-15 fw-md clr-3">Size:</h6>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">SL</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">M</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">L</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">XL</button>
+              </div>
+
+              <div class="color pt-4">
+                <h6 class="fs-15 fw-md clr-3">Colors:</h6>
+                <button class="btn p-1 border rounded-circle bg-primary fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-warning fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-danger fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-or fs-11 shadow-none clr-3"></button>
+              </div>
+
+              <div class="countdown justify-content-start d-flex pt-4">
+                <div class="box me-2 text-center p-2 bg-light">
+                  <span class="fs-5 d-block clr-1 fw-md" id="day">00</span>
+                  <span class="fs-13 mt-2 d-block clr-2 text-uppercase">days</span>
+                </div>
+                <div class="box me-2 text-center p-2 bg-light">
+                  <span class="fs-5 d-block clr-1 fw-md" id="hour">00</span>
+                  <span class="fs-13 mt-2 d-block clr-2 text-uppercase">hours</span>
+                </div>
+                <div class="box me-2 text-center p-2 bg-light">
+                  <span class="fs-5 d-block clr-1 fw-md" id="minute">00</span>
+                  <span class="fs-13 mt-2 d-block clr-2 text-uppercase">minutes</span>
+                </div>
+                <div class="box me-2 text-center p-2 bg-light">
+                  <span class="fs-5 d-block clr-1 fw-md" id="second">00</span>
+                  <span class="fs-13 mt-2 d-block clr-2 text-uppercase">seconds</span>
+                </div>
+              </div>
+              <div class="product-price mt-3">
+                <s class="fs-15 clr-2">$ <span class="regular-price">33.95</span></s>
+                <span class="price fs-5 clr-rat fw-md">$</span>
+                <span class="price fs-5 clr-rat fw-md">28.95</span>
+              </div>
+
+              <div class="pro-cart mt-4">
+                <button class="btn qty-down shadow-none border border-dark p-2 py-2 rounded-0 fs-15 " style="margin-right: -5px;" data-id="productQ-1">-</button>
+                <input type="number" name="product-qty" id="qty"  data-id="productQ-1" class="d-inline-block fs-15 border border-dark border-start-0 border-end-0 qty-input rounded-0 ps-3 py-2" disabled style="outline: none; width: 80px;" value="1">
+                <button class="btn qty-up border border-dark shadow-none p-2 py-2 rounded-0 fs-15 " style="margin-left: -5px;" data-id="productQ-1">+</button>
+
+                <button class="btn py-2 btn-dark rounded-0 fs-6 ms-3 me-md-3"><i class="bx bx-cart"></i> <span>Add to cart</span></button>
+                <button class="btn py-2 btn-outline-dark rounded-0 fs-6 ms-3 "><i class="bx bx-heart"></i></button>
+                <button class="btn py-2 btn-outline-dark rounded-0 fs-6 ms-3"><i class="bx bx-transfer"></i></button>
+              </div>
+
+              <div class="guide d-flex justify-content-between pt-4 border-bottom pb-2">
+                <span>
+                  <a href="#" class="clr-2 fs-15 me-2"><i class='bx bx-cut me-1 fs-6'></i> Size guide</a>
+                  <a href="#" class="clr-2 fs-15"><i class="bx bxs-truck me-1 fs-6"></i>Shipping</a>
+                </span>
+                <span>
+                <a href="#" class="clr-2  fs-15"><i class="bx bx-envelope me-1 fs-6"> Ask about Product?</i></a>
+                </span>
+              </div>
+
+              <ul class="list-unstyled m-0 p-0 mt-3">
+                <li class="fs-13 clr-2 mt-3">
+                  <span class="fs-15 me-2">Categories:</span>
+                  <a href="./category.html" class="clr-2">Women,</a>
+                  <a href="./category.html" class="clr-2 ms-1">Sunglasses,</a>
+                  <a href="./category.html" class="clr-2 ms-1">Shoe</a>
+                </li>
+                <li class="fs-13 clr-2 mt-3">
+                  <span class="fs-15 me-2">Tags:</span>
+                  <a href="./category.html" class="clr-2">Women,</a>
+                  <a href="./category.html" class="clr-2 ms-1">Top,</a>
+                  <a href="./category.html" class="clr-2 ms-1">Shoe</a>
+                </li>
+                <li class="fs-13 clr-2 mt-3">
+                  <span class="fs-15 me-2">Share:</span>
+                  <a href="#" class="clr-2"><i class="bx bxl-facebook"></i></a>
+                  <a href="#" class="clr-2 ms-1"><i class="bx bxl-linkedin"></i></a>
+                  <a href="#" class="clr-2 ms-1"><i class="bx bxl-instagram"></i></a>
+                </li>
+              </ul>
+              <img src="./img/single-pro/payment-details.png" alt="" class="img-fluid mt-3 text-end">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- product description, information, reviews area -->
+        <ul class="nav nav-tabs m-auto" id="product-description" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pro-description-tab" data-bs-toggle="tab" data-bs-target="#pro-description" type="button" role="tab" aria-controls="pro-description" aria-selected="true">Description</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pro-information-tab" data-bs-toggle="tab" data-bs-target="#pro-information" type="button" role="tab" aria-controls="pro-information" aria-selected="false">Information</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pro-reviews-tab" data-bs-toggle="tab" data-bs-target="#pro-reviews" type="button" role="tab" aria-controls="pro-reviews" aria-selected="false">Reviews</button>
+          </li>
+        </ul>
+
+        <div class="tab-content py-4" id="product-descriptionContent">
+          <!-- product description -->
+          <div class="tab-pane fade show active" id="pro-description" role="tabpanel" aria-labelledby="pro-description-tab">
+            <div class="row">
+              <div class="col-lg-7 mb-md-0 mb-3">
+                <h5 class="clr-3 fw-md">Product Description:</h5>
+                <p class="about-product fs-15 clr-2 my-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p class="about-product fs-15 clr-2 my-2">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <h5 class="fs-15 clr-1 fw-md mt-4">Sample Unordered List</h5>
+                <ul class="clr-2 fs-15">
+                  <li class="">Comodous in tempor ullamcorper miaculis</li>
+                  <li class="">Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                  <li class="">Divamus sit amet purus justo.</li>
+                  <li class="">Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+                </ul>
+                <h5 class="fs-15 clr-rat fw-md mt-4">Sample Ordered List</h5>
+                <ol class="clr-2 fs-15">
+                  <li class="">Comodous in tempor ullamcorper miaculis</li>
+                  <li class="">Pellentesque vitae neque mollis urna mattis laoreet.</li>
+                  <li class="">Divamus sit amet purus justo.</li>
+                  <li class="">Proin molestie egestas orci ac suscipit risus posuere loremous</li>
+                </ol>
+
+                <blockquote class="bg-light p-3 lead fw-normal mt-5 clr-3 border-start border-primary border-5">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+              </blockquote>
+
+              </div>
+
+              <div class="col-lg-5">
+                <img src="./img/single-pro/product-x-4.jpg" alt="" class="img-fluid desc-image">
+                <div class="row mt-4">
+                  <div class="col-6 mb-3">
+                    <div class="box border p-3 bg-light d-flex flex-wrap justify-content-center">
+                      <i class='bx bxs-truck fs-2 clr-1 mb-3'></i>
+                      <div class="ms-3">
+                        <h6 class="fs-15 clr-1 fw-md">Free Shipping</h6>
+                        <p class="fs-13 clr-2 mb-0">
+                          Lorem ipsum dolor sit amet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-3">
+                    <div class="box border p-3 bg-light d-flex flex-wrap justify-content-center">
+                      <i class='bx bx-headphone fs-2 clr-1 mb-3'></i>
+                      <div class="ms-3">
+                        <h6 class="fs-15 clr-1 fw-md">Contact us 24/7</h6>
+                        <p class="fs-13 clr-2 mb-0">
+                          Lorem ipsum dolor sit amet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6 mb-md-0 mb-3">
+                    <div class="box border p-3 bg-light d-flex flex-wrap justify-content-center">
+                      <i class='bx bx-log-in fs-2 clr-1 mb-3'></i>
+                      <div class="ms-3">
+                        <h6 class="fs-15 clr-1 fw-md">30 Days Return</h6>
+                        <p class="fs-13 clr-2 mb-0">
+                          Lorem ipsum dolor sit amet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="box border p-3 bg-light d-flex flex-wrap justify-content-center">
+                      <i class='bx bx-check-shield fs-2 clr-1 mb-3'></i>
+                      <div class="ms-3">
+                        <h6 class="fs-15 clr-1 fw-md">100% Secure Paymen</h6>
+                        <p class="fs-13 clr-2 mb-0">
+                          Lorem ipsum dolor sit amet
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- product information -->
+          <div class="tab-pane fade" id="pro-information" role="tabpanel" aria-labelledby="pro-information-tab">
+              <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Product #</th>
+                        <td class="clr-2 fs-15 fw-normal">Lorem ipsum dolor sit amet, consectetur adipisic elit</td>
+                      </tr>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Available packaging</th>
+                        <td class="clr-2 fs-15 fw-normal">consectetur adipisic elit eiusm tempor</td>
+                      </tr>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Weight</th>
+                        <td class="clr-2 fs-15 fw-normal">Ut enim ad minim venialo quis nostrud</td>
+                      </tr>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Sunt in culpa qui</th>
+                        <td class="clr-2 fs-15 fw-normal">labore et dolore magna aliqua.</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-6">
+                  <table class="table">
+                    <tbody>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Product #</th>
+                        <td class="clr-2 fs-15 fw-normal">Lorem ipsum dolor sit amet, consectetur adipisic elit</td>
+                      </tr>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Size</th>
+                        <td class="clr-2 fs-15 fw-normal">XS, S, M, L, XL, XXL</td>
+                      </tr>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Weight</th>
+                        <td class="clr-2 fs-15 fw-normal">Ut enim ad minim venialo quis nostrud</td>
+                      </tr>
+                      <tr>
+                        <th class="clr-rat fw-md" scope="row">Color</th>
+                        <td class="clr-2 fs-15 fw-normal">Red, Purpole, Green, Blue, Black, White, Orange</td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+          </div>
+
+          <!-- product review -->
+          <div class="tab-pane fade" id="pro-reviews" role="tabpanel" aria-labelledby="pro-reviews-tab">
+            <div class="row">
+              <div class="col-lg-7 mb-4 mb-lg-0">
+                <div class="review-header d-flex justify-content-between align-items-center mb-4">
+                  <div class="title">
+                    <h3 class="fw-md fs-4 clr-3">Reviews</h3>
+                    <div class="rating my-2">
+                      <span><i class="bx bxs-star clr-rat"></i></span>
+                      <span><i class="bx bxs-star clr-rat"></i></span>
+                      <span><i class="bx bxs-star clr-rat"></i></span>
+                      <span><i class="bx bxs-star clr-rat"></i></span>
+                      <i class='bx bxs-star-half clr-rat'></i>
+                      <span class="ms-1 fs-11 clr-2 fw-normal "><span class="fs-15 clr-1 fw-md">4.9</span>&nbsp;/&nbsp;<span class="fs-15 clr-rat fw-md">5</span> &nbsp;(267 Reviews)</span>
+                    </div>
+                  </div>
+                  <div class="button-view-all">
+                    <a href="#" class="fs-15">View all review</a>
+                  </div>
+                </div>
+                
+                <div id="reviewed-shows" class="border-bottom">
+                  <div class="review-post border-bottom py-3 d-flex">
+                    <div class="user-pic">
+                      <img src="./img/user-100.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="reviewed-detail">
+                      <h6 class="reviewer-name fw-md clr-3">Nancy Bayer</h6>
+                      <div class="rating my-3">
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class='bx bxs-star-half clr-rat'></i></span>
+                        <span class="reviewed-date fw-normal fs-13 clr-2">18 June, 2021</span>
+                      </div>
+                      <p class="reviewed-comment fs-15 clr-2 fw-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                      </p>
+                    </div>
+                  </div>
+  
+                  <div class="review-post border-bottom py-3 d-flex">
+                    <div class="user-pic me-2">
+                      <img src="./img/user-100.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="reviewed-detail">
+                      <h6 class="reviewer-name fw-md clr-3">Nancy Bayer</h6>
+                      <div class="rating my-3">
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class='bx bx-star clr-rat'></i></span>
+                        <span class="reviewed-date fw-normal fs-13 clr-2">18 June, 2021</span>
+                      </div>
+                      <p class="reviewed-comment fs-15 clr-2 fw-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                      </p>
+                    </div>
+                  </div>
+  
+                  <div class="review-post border-bottom py-3 d-flex">
+                    <div class="user-pic me-2">
+                      <img src="./img/user-100.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="reviewed-detail">
+                      <h6 class="reviewer-name fw-md clr-3">Nancy Bayer</h6>
+                      <div class="rating my-3">
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class="bx bxs-star clr-rat"></i></span>
+                        <span><i class='bx bxs-star-half clr-rat'></i></span>
+                        <span class="reviewed-date fw-normal fs-13 clr-2">18 June, 2021</span>
+                      </div>
+                      <p class="reviewed-comment fs-15 clr-2 fw-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="col-lg-5 sticky-top">
+                <div class="box border p-3">
+                  <h5 class="d-block border-bottom fw-md clr-3 text-uppercase pb-2 mb-4">write a comment</h5>
+
+                  <form action="" name="review">
+                    <div class="row">
+                      <div class="col-md-6 mb-3 mb-md-0">
+                        <label for="review-U-name" class="fs-15 clr-2 mb-1">Name</label>
+                        <input type="text" name="review-U-name" id="review-U-name" class="form-control rounded-0 shadow-none border">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="review-U-email" class="fs-15 clr-2 mb-1">Email</label>
+                        <input type="email" name="review-U-email" id="review-U-email" class="form-control rounded-0 shadow-none border">
+                      </div>
+                    </div>
+                    <div class="rating my-3">
+                      <p class="fs-15 clr-2 fw-normal mb-1">Ratting</p>
+                      <span><i class="bx bx-star clr-rat"></i></span>
+                      <span><i class="bx bx-star clr-rat"></i></span>
+                      <span><i class="bx bx-star clr-rat"></i></span>
+                      <span><i class="bx bx-star clr-rat"></i></span>
+                      <i class='bx bx-star clr-rat'></i>
+                    </div>
+                    <div class="form-group">
+                        <label for="review-title" class="fs-15 clr-2 mb-1">Review Title</label>
+                        <input type="text" name="review-title" id="review-title" class="form-control rounded-0 shadow-none border">
+                    </div>
+                    <div class="form-group my-3">
+                      <label for="review-desc" class="fs-15 clr-2 mb-1">Body of Review (1250)</label>
+                      <textarea name="review-desc" id="review-desc" cols="30" rows="10" maxlength="1250" style="height: 160px;" class="form-control rounded-0 shadow-none border"></textarea>
+                    </div>
+                    <input type="submit" value="Submit Review" id="submitReview" class="px-4 py-2 btn btn-primary shadow-none rounded-0 fs-15 fw-md">
+                  </form>
+                  <div class="p-4 text-danger" id="anyEmpty">
+                    <span class="fw-bold fs-15"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ! product description, information, reviews area -->
+
+
+  
+      </div> 
+    </section>
+    <!-- ! product main area -->
+
+
+  <!-- You may also like -->
+  <section class="new-collection-carousel py-5 bg-light" id="new-collection-carousel">
+    <div class="container">
+
+      
+      <!-- section title -->
+      <div class="section-title text-center py-4">
+        <h2 class="fw-md clr-3 mt-3">You might also like these</h2>
+        <p class="fs-15 clr-2">Read Today’s News.</p>
+      </div>
+      <!-- ! section title -->
+
+      <div class="owl-carousel owl-theme">
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-1.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-2.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Top</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-3.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-4.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-5.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-6.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 45.99</span>
+                <s class="clr-2 fs-13">$ 38.75</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ! you may also like -->
+
+
+
+
+
+       
+  </main>
+
+
+  <!-- footer -->
+  <footer class="footer py-4 bg-3" id="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-about">
+            <a href="./index.html" class="footer-logo"><img src="./img/logo.png" class="img-fluid" alt=""></a>
+            <ul class="list-unstyled m-0">
+              <li class="mt-2"><span class="fs-15 text-light">301 The Greenhouse London,<br>E2 8DY UK</span></li>
+              <li class="mt-2"><a href="mailto:support@domain.com" class="text-light fs-15">support@domain.com</a></li>
+              <li class="mt-2"><a href="tel:" class="text-light fs-15">820-885-3321</a></li>
+              <li class="mt-4">
+                <a href="#" class="me-1"><i class="bx bxl-facebook text-light px-3 py-2 rounded fs-5"></i></a>
+                <a href="#" class="me-1"><i class="bx bxl-linkedin text-light px-3 py-2 rounded fs-5"></i></a>
+                <a href="#" class="me-1"><i class="bx bxl-twitter text-light px-3 py-2 rounded fs-5"></i></a>
+                <a href="#" class=""><i class="bx bxl-github text-light px-3 py-2 rounded fs-5"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-2 mb-4 mb-lg-0">
+          <h6 class="text-white fw-md">SUPPORT</h6>
+          <ul class="list-unstyled m-0 mt-4 p-0">
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Help</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Contact Us</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Feedback</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Unsubscribe</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Reservations</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h6 class="text-white fw-md">POLICIES</h6>
+          <ul class="list-unstyled m-0 mt-4 p-0">
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Privacy Policy</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Terms of use</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Gift card conditions</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Shipping</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Return</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 ">
+          <h6 class="text-white fw-md">STAY UP TO DATE</h6>
+          <p class="fs-15 text-light mt-4 fw-normal">Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan.</p>
+
+          <form action="" class="">
+            <div class="row my-3">
+              <div class="col-md-8">
+                <input type="email" name="email" placeholder="Email" id="footer-email" class="form-control rounded-0 shadow-none bg-transparent border email">
+              </div>
+              <div class="col-md-4 mt-3 mt-md-0 p-0">
+                <div class="d-grid">
+                  <input type="submit" value="Gte Started" class="btn btn-primary rounded-0 shadow-none fs-15 fw-md form-control">
+                </div>
+              </div>
+            </div>
+          </form>
+          <p class="text-light mt-2 fs-15 fw-normal">New UI kits or big discounts. Never spam.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ! footer -->
+
+
+  <!-- copyright -->
+  <section class="copyright py-3 border-top border-secondary bg-3" id="copyright">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="fs-15 text-light fw-normal p-0 m-0">&copy; <span id="current-year"></span> By Ashik Ali</p>
+        <img src="./img/payments.png" alt="" class="img-fluid payment">
+      </div>
+    </div>
+  </section>
+  <!-- ! copyright -->
+
+
+
+
+
+
+
+  
+  <!-- JQ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- BS js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <!-- VB -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.js" integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- IST -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- WaP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- OC -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+   <!-- Slick -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <!-- Custom JS -->
+  <script src="./js/index.js"></script>
+  <script src="./js/cart.js"></script>
+  <script src="./js/single-pro.js"></script>
+
+</body>
+</html>

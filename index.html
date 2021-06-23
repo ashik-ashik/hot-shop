@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is an E-commerce demo webiste. Salse your product on online. Too simple just upload your product and promote your business over night. Awesome!">
+  <meta name="keywords" content="ecommerce, e-commerce, bootstrap, demo ecommerce webiste">
+  <link rel="shortcut icon" href="./img/favicon/ashik.ico" type="image/x-icon">
+  <title>Hot Shoppe E-commerce Website</title>
+
+  <!-- BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- BI -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- VB -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.css" integrity="sha512-e+0yqAgUQFoRrJ4pZigQXpOE0S7J9IGwmgH801h4H5ODqOCG8/GRfXHQ+9ab754NL79O7wDwdjwY3CcU8sEANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- OC -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+  
+
+
+  <!-- top bar -->
+  <header class="header py-1 bg-3" id="header">
+    <div class="container ">
+      <!-- desktop top bar -->
+      <div class="d-none d-lg-block">
+        <div class="d-flex justify-content-between align-items-center">
+          <ul class="list-unstyled p-0 m-0">
+            <li class="d-inline-block me-3"><span class="fs-13 text-light">
+              <i class="bx bx-time me-1"></i>Visit time: Mon-Sat 9:00-19:00
+            </span></li>
+            <li class="d-inline-block me-3"><span class="fs-13">
+              <a href="#" class="text-light text-decoration-none"><i class='bx bx-headphone me-1'></i>Call us now: +01 035-477-5588</a>
+            </span></li>
+          </ul>
+  
+          <ul class="list-unstyled p-0 m-0">
+            <li class="d-inline-block me-2">
+              <div class="dropdown">
+                <button class="btn text-light shadow-none dropdown-toggle fs-13" type="button" id="language" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./img/lang/uk.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;"> English
+                </button>
+                <ul class="dropdown-menu rounded-0" aria-labelledby="language">
+                  <li class="mb-3 px-3">
+                    <select class="form-select shadow-none" aria-label="Default select example">
+                      <option selected>$ USD</option>
+                      <option value="1">৳ BDT</option>
+                      <option value="2">UR</option>
+                      <option value="3">BC</option>
+                    </select>  
+                  </li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/flag-400.png" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Bangla</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/sp.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Espanish</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/fr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">France</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/gr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Danish</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="d-inline-block me-3"><a href="./contact.html" class="text-light text-decoration-none"><i class="bx bx-link text-light me-1"></i><span class="text-light fs-13">Contact</span></a></li>
+            <li class="d-inline-block me-3 text-light fs-13">
+              <a class="text-light" data-bs-toggle="modal" href="#login-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+                <i class="bx bxs-user me-1"></i> Login
+              </a></li>
+            <li class="d-inline-block me-3 fs-15 text-light">
+              <a href="#" class="text-light"><i class="bx bxl-facebook me-3"></i></a>
+              <a href="#" class="text-light"><i class="bx bxl-twitter me-3"></i></a>
+              <a href="#" class="text-light"><i class="bx bxl-instagram "></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- mobile top bar -->
+      <div class="d-block d-lg-none">
+        <div class="d-flex justify-content-between align-items-center">
+          <ul class="list-unstyled p-0 m-0">
+            <li class="d-inline-block me-2">
+              <div class="dropdown">
+                <button class="btn text-light shadow-none dropdown-toggle fs-13" type="button" id="mb-language" data-bs-toggle="dropdown" aria-expanded="false">
+                  <img src="./img/lang/uk.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;"> English
+                </button>
+                <ul class="dropdown-menu rounded-0" aria-labelledby="mb-language">
+                  <li class="mb-3 px-3">
+                    <select class="form-select shadow-none" aria-label="Default select example">
+                      <option selected>$ USD</option>
+                      <option value="1">৳ BDT</option>
+                      <option value="2">UR</option>
+                      <option value="3">BC</option>
+                    </select>  
+                  </li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/flag-400.png" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Bangla</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/sp.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Espanish</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/fr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">France</a></li>
+                  <li><a class="dropdown-item mb-1 fs-13 text-dark" href="#"><img src="./img/lang/gr.svg" alt="" class="img-fluid me-2" style="height: 20px; width: auto;">Danish</a></li>
+                </ul>
+              </div>
+            </li>
+            </ul>
+          <ul class="list-unstyled p-0 m-0">
+           
+            <li class="d-inline-block me-3"><a href="./contact.html" class="text-light text-decoration-none"><i class="bx bx-link text-light me-1"></i><span class="text-light fs-13">Contact</span></a></li>
+            <li class="d-inline-block me-3 text-light fs-13">
+              <a class="text-light" data-bs-toggle="modal" href="#login-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+                <i class="bx bxs-user me-1"></i> Login
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- ! top bar -->
+
+
+
+  <!-- navigation menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-none d-lg-block">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/logo.png" alt="" class="img-fluid site-logo">
+      </a>
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0 fs-15 fw-md">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./posts.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faqs.html">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="list-unstyled m-0 p-0 cart-item">
+        <li class="d-inline-block me-2">
+          <a class="text-light" data-bs-toggle="modal" href="#search-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+            <i class="bx bx-search clr-3"></i>
+          </a>
+        </li>
+        <li class="d-inline-block me-2">
+          <a href="./account.html">
+            <i class="bx bx-user-circle clr-3"></i></a>
+        </li>
+        <li class="d-inline-block me-2">
+          <a href="#"><i class="bx bx-heart clr-3"></i></a>
+        </li>
+        <li class="d-inline-block me-2">
+          <button class="position-relative btn rounded-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart-pop-up" aria-controls="cart-pop-up"><i class="bx bxs-cart clr-3"></i><sup class="position-absolute top-0 left-100 translate-middle-y bg-1 text-white fw-md rounded-circle" style="font-size: 10px;padding: 10px 6px;">7</sup></button>
+        </li>
+      </ul>
+      
+    </div>
+  </nav>
+
+  <!-- mobile menu -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm d-block d-lg-none">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/logo.png" alt="" class="img-fluid site-logo">
+      </a>
+      
+      <ul class="list-unstyled m-0 ms-auto me-4 p-0 cart-item">
+        <li class="d-inline-block me-2">
+          <a class="text-light" data-bs-toggle="modal" href="#search-pop-up" role="button"  data-aos="zoom-out" data-aos-delay="200">
+            <i class="bx bx-search clr-3"></i>
+          </a>
+        </li>
+        <li class="d-inline-block me-2">
+          <a href="./account.html"><i class="bx bx-user-circle clr-3"></i></a>
+        </li>
+        <li class="d-inline-block me-2">
+          <button class="position-relative btn rounded-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#cart-pop-up" aria-controls="cart-pop-up"><i class="bx bxs-cart clr-3"></i><sup class="position-absolute top-0 left-100 translate-middle-y bg-1 text-white fw-md rounded-circle" style="font-size: 10px;padding: 10px 6px;">7</sup></button>
+        </li>
+      </ul>
+
+      <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <ul class="navbar-nav mb-2 mb-lg-0 fs-15 fw-md">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./shop.html">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./category.html">Category</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./posts.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./faqs.html">FAQs</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+        <!-- search pop up -->
+        <div class="modal fade" style="background: #000000cc;" id="search-pop-up" aria-hidden="true" aria-labelledby="searchModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered bg-transparent  modal-lg">
+            <div class="modal-content bg-transparent p-md-5 p-4">
+              <div class="modal-header  border-bottom mb-4 pb-2 ">
+                <h5 class="modal-title fs-2 text-light fw-bold m-0" id="searchModal">Search</h5>
+                <button type="button" class="btn-close text-light btn shadow-none fs-14" data-bs-dismiss="modal" aria-label="Close">Close</button>
+              </div>
+              <div class="modal-body mb-4">
+                
+                <form action="" method="post">
+                  <div class="row">
+                    <div class="col-10 px-0">
+                      <input type="text" name="search-fld" id="search-fld" class="form-control bg-transparent text-light border-end-0 fs-15 shadow-none rounded-0 text-lowercase" style="letter-spacing: 1px; word-spacing: 5px;" placeholder="What are you looking for?">
+                    </div>
+                    <div class="col-2 px-0">
+                      <button type="submit" id="submit-search" class="btn shadow-none border text-light rounded-0" style="padding: 5px 20px;"><i class="bx bx-search fs-15"></i></button>
+                    </div>
+                  </div>
+                </form>
+                
+              </div>
+              <div class="border-top text-center">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- login pop up -->
+        <div class="modal fade" id="login-pop-up" aria-hidden="true" aria-labelledby="logInModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="logInModal">Account Log In</h5>
+                <button type="button" class="btn-close shadow-none fs-14" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+
+                <div class="form-area py-5">
+                  <form action="" class="login-form" name="login-form" onsubmit="logInTry(); return false">
+                  <div class="row">
+
+                    <div class="col-12">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-user text-danger"></i></div>
+                        <input type="email" name="loginUsername" class="form-control shadow-none" id="login-username" placeholder="Username or Email">
+                      </div>
+                    </div>
+                    <div class="col-12 my-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-lock text-danger"></i></div>
+                        <input type="password" name="loginPassword" class="form-control shadow-none" id="login-password" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="login-remember">
+                        <label class="form-check-label" for="login-remember">
+                          Remember me on this devise
+                        </label>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="d-grid my-4">
+                    <input type="submit" id="LogIn" value="Log In" class="btn shadow-none btn-outline-danger rounded-pill text-uppercase fw-md fs14">
+                  </div>
+                  <div class="error-box text-center my-4 p-3"><span class="text-danger fw-md small"></span></div>
+                  </form>
+                  <a href="#" class="text-decoration-none my-4">Forgot Your Password?</a>
+                </div>
+                
+              </div>
+              <div class="modal-footer">
+                <span class="fw-md me-2">Not a Member? </span>
+                <button class="btn text-success text-uppercase fw-bold shadow-none" data-bs-target="#signup-pop-up" data-bs-toggle="modal" data-bs-dismiss="modal">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- sign-up pop up -->
+        <div class="modal fade" id="signup-pop-up" aria-hidden="true" aria-labelledby="signUpModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="signUpModal">Create Your Account</h5>
+                <button type="button" class="btn-close shadow-none fs-14" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="form-area py-5">
+                  <form action="" class="login-form">
+                  <div class="row">
+
+                    <div class="col-lg-6 mb-3 mb-lg-0">
+                      <div class="input-group">
+                        <div class="input-group-text"><img src="./img/name.png" alt="" class="img-fluid"></div>
+                        <input type="text" name="newFName" class="form-control shadow-none" id="newFName" placeholder="First Name">
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="input-group">
+                        <input type="text" name="newLName" class="form-control shadow-none" id="newLName" placeholder="Last Name">
+                        <div class="input-group-text"><img src="./img/name.png" alt="" class="img-fluid"></div>
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-user text-success"></i></div>
+                        <input type="text" name="newUsername" class="form-control shadow-none" id="newUsername" placeholder="Username">
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-envelope text-success"></i></div>
+                        <input type="email" name="newEmail" class="form-control shadow-none" id="newEmail" placeholder="Email">
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-lock text-danger"></i></div>
+                        <input type="password" name="newPassword" class="form-control shadow-none" id="newPassword" placeholder="Password">
+                      </div>
+                    </div>
+                    <div class="col-12 mt-3">
+                      <div class="input-group">
+                        <div class="input-group-text"><i class="bx bxs-lock text-danger"></i></div>
+                        <input type="password" name="confirmPassword" class="form-control shadow-none" id="confirmPassword" placeholder=" Confirm Password">
+                      </div>
+                        <p class="py-3 text-center text-danger fs-13" id="pasErr"></p>
+                      </div>
+                    <div class="col-12 mt-3">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="aggree-signUp">
+                        <label class="form-check-label" for="aggree-signUp">
+                          By signing up, you agree to our <a href="#" class="fw-bold">Terms of service</a> and our <a href="#" class="fw-bold">Privacy policy</a>.
+                        </label>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="d-grid my-4">
+                    <input type="submit" id="SignUp" value="Sign Up" class="btn shadow-none btn-outline-success rounded-pill text-uppercase fw-md fs14">
+                  </div>
+                  </form>
+                  
+                  <div class="signErr-box text-center text-danger fw-md py-3 fs-15">
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <span class="fw-md">Already hvae an account? </span>
+                <button class="btn text-primary text-uppercase fw-bold shadow-none" data-bs-target="#login-pop-up" data-bs-toggle="modal" data-bs-dismiss="modal">Log In</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- cart pop up -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="cart-pop-up" aria-labelledby="cart-pop-upLabel">
+          <div class="offcanvas-header border-bottom">
+            <h6 class="mt-3 fw-md" id="cart-pop-upLabel">Your Cart (2)</h6>
+            <button type="button" class="btn-close text-reset shadow-none fs-15" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body mt-3">
+
+            <!-- product item -->
+            <div class="d-flex">
+              <div class="image me-2">
+                <img src="./img/product/product-1.jpg" alt="" class="img-cart-pop">
+              </div>
+              <div class="title">
+                <h6><a href="./single-product.html" class="clr-2a mb-1 fs-15 fw-md text-capitalize">Cotton floral print Dress</a></h6>
+                <span class="fs-13 clr-1 fw-md">$110</span>
+                <div class="cart-btn d-flex justify-content-between mt-2">
+                  <input type="number" name="qty" id="cartPopQTY" value="1" class="form-control qty-input shadow-none d-inline-block border-dark rounded-0" style="width: 90px;">
+                  <button class="btn rounded-0 btn-outline-danger fs-13 ms-2"><i class="bx bx-x-circle me-1"></i>Remove</button>
+                </div>
+              </div>
+            </div>
+            <!-- product item -->
+            <div class="d-flex mt-3 border-top pt-3">
+              <div class="image me-2">
+                <img src="./img/product/product-1.jpg" alt="" class="img-cart-pop">
+              </div>
+              <div class="title">
+                <h6><a href="./single-product.html" class="clr-2a mb-1 fs-15 fw-md text-capitalize">Cotton floral print Dress</a></h6>
+                <span class="fs-13 clr-1 fw-md">$110</span>
+                <div class="cart-btn d-flex justify-content-between mt-2">
+                  <input type="number" name="qty" id="cartPopQTY" value="1" class="form-control qty-input shadow-none d-inline-block border-dark rounded-0" style="width: 90px;">
+                  <button class="btn rounded-0 btn-outline-danger fs-13 ms-2"><i class="bx bx-x-circle me-1"></i>Remove</button>
+                </div>
+              </div>
+            </div>
+            <!-- subtotal -->
+            <div class="border shadow-sm mt-3">
+              <table class="table mb-0">
+                <tbody class="px-3">
+                  <tr>
+                    <td class="text-start py-2 clr-2 fw-md">Subtotal</td>
+                    <td class="text-end py-2 clr-rat">$ <span class="subtotal" id="cartSubtotal">270</span></td>
+                  </tr>
+                  <tr>
+                    <td class="text-start py-2 clr-2 fw-md">Taxes</td>
+                    <td class="text-end py-2 clr-rat">$ <span class="subtotal" id="cartSubtotal">2.2</span></td>
+                  </tr>
+                  <tr>
+                    <td class="text-start py-3 clr-3 fw-md">Grand Total</td>
+                    <td class="text-end py-3 clr-rat fw-md">$ <span class="subtotal" id="cartSubtotal">272.2</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- checkout button -->
+            <div class="d-grid mt-3">
+              <a href="./chekout.html" class="btn btn-primary rounded-0 py-2 shadow-none fs-13 text-uppercase">Proceed to checkout</a>
+            </div>
+            <div class="d-grid mt-3">
+              <a href="./cart.html" class="btn btn-outline-dark rounded-0 py-2 shadow-none fs-13 text-uppercase">View Cart</a>
+            </div>
+
+          </div>
+        </div>
+  
+  
+  <!-- ! navigation menu -->
+
+
+  
+  
+  <main class="main-content" id="main-content">
+
+  <!-- hero slider -->
+  <section class="hero-slider" id="hero-slider">
+    <div class="container-fluid px-0">
+
+      <div id="myHeroSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="item item-1 d-flex align-items-center py-4 justify-content-center">
+              <div class=" text-center">
+                <h6 class="fs-13 text-white fw-md text-capitalize">You are looking good</h6>
+              <h2 class="display-3 text-uppercase text-white fw-md py-5">new lookbook</h2>
+              <a href="./shop.html" class="btn px-4 py-3 btn-outline-light rounded-0 shadow-none fs-13 text-capitalize">discover more</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="item item-2 d-flex align-items-center py-4 justify-content-center">
+              <div class="text-center">
+                <h6 class="fs-13 text-white fw-md text-capitalize">You are looking good</h6>
+              <h2 class="display-3 text-uppercase text-white fw-md py-5">new lookbook</h2>
+              <a href="./shop.html" class="btn px-4 py-3 btn-outline-light rounded-0 shadow-none fs-13 text-capitalize">discover more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myHeroSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myHeroSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+  <!-- ! hero slider -->
+
+
+  <!-- featured banner -->
+  <section class="featured-banner py-3" id="featured-banner">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <div class="box box-1 d-flex align-items-center justify-content-center">
+            <div class="content text-center">
+              <h5 class="text-white fw-md text-uppercase fs-15">new in</h5>
+              <h2 class="text-uppercase text-white fw-md pb-4 py-3">Women's</h2>
+              <a href="./shop.html" class="btn btn-light rounded-0 px-4 py-2">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <div class="box box-2 d-flex align-items-center justify-content-center">
+            <div class="content text-center">
+              <h5 class="text-white fw-md text-uppercase fs-15">new in</h5>
+              <h2 class="text-uppercase text-white fw-md pb-4 py-3">Women's</h2>
+              <a href="./shop.html" class="btn btn-light rounded-0 px-4 py-2">Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-3 mb-lg-0">
+          <div class="box box-3 d-flex align-items-center justify-content-center">
+            <div class="content text-center">
+              <h5 class="text-white fw-md text-uppercase fs-15">new in</h5>
+              <h2 class="text-uppercase text-white fw-md pb-4 py-3">Women's</h2>
+              <a href="./shop.html" class="btn btn-light rounded-0 px-4 py-2">Shop Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ! featured banner -->
+
+
+
+  <!-- latest products -->
+  <section class="latest-product py-5" id="latest-product">
+    <div class="container">
+
+      <!-- section title -->
+      <div class="section-title text-center py-4">
+        <p class="fs-15 clr-2">Read Today’s News.</p>
+        <h2 class="fw-md clr-3 mt-3">Latest Arrivals</h2>
+      </div>
+      <!-- ! section title -->
+
+      <div class="row py-5">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-1.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+              <div class="size pt-3">
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">SL</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">M</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">L</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">XL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-2.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 33.95</span>
+                <s class="clr-2 fs-13">$ 39.95</s>
+              </div>
+              <div class="color pt-3">
+                <button class="btn p-1 border rounded-circle bg-primary fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-warning fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-danger fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-or fs-11 shadow-none clr-3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-3.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+              <div class="size pt-3">
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">SL</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">M</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">L</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">XL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-4.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+              <div class="color pt-3">
+                <button class="btn p-2 border rounded-circle bg-primary fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-warning fs-11 shadow-none clr-3"></button>
+                <button class="btn p-1 border rounded-circle bg-danger fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-or fs-11 shadow-none clr-3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-5.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Top</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+              <div class="color pt-3">
+                <button class="btn p-2 border rounded-circle bg-primary fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-warning fs-11 shadow-none clr-3"></button>
+                <button class="btn p-1 border rounded-circle bg-danger fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-or fs-11 shadow-none clr-3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-6.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+              <div class="size pt-3">
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">SL</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">M</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">L</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">XL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-7.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+              <div class="color pt-3">
+                <button class="btn p-2 border rounded-circle bg-primary fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-warning fs-11 shadow-none clr-3"></button>
+                <button class="btn p-1 border rounded-circle bg-danger fs-11 shadow-none clr-3"></button>
+                <button class="btn p-2 border rounded-circle bg-or fs-11 shadow-none clr-3"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-8.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 35.85</span>
+                <s class="clr-2 fs-13">$ 41.56</s>
+              </div>
+              <div class="size pt-3">
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">SL</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">M</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">L</button>
+                <button class="btn border rounded-0 fs-11 shadow-none clr-3">XL</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ! latest products -->
+
+
+
+
+  <!-- new collection section -->
+  <section class="new-collection py-5" id="new-collection">
+    <div class="container h-100">
+      <div class="d-flex justify-content-center align-items-center h-100">
+        <div class="text-center text-white">
+          <h6 class="fs-13 text-uppercase fw-md">Hurry up! Limited time offer</h6>
+          <h2 class="display-5 fw-md py-4">Nw Exclusive <br> 2021 Collection</h2>
+          <a href="./shop.html" class="btn btn-outline-light rounded-0 shadow-none px-4 py-2 fs-13">Discover More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! new collection section -->
+
+
+
+  <!-- new collection carousel -->
+  <section class="new-collection-carousel py-5" id="new-collection-carousel">
+    <div class="container">
+
+      
+      <!-- section title -->
+      <div class="section-title text-center py-4">
+        <h2 class="fw-md clr-3 mt-3">Shop The Collection</h2>
+        <p class="fs-15 clr-2">Read Today’s News.</p>
+      </div>
+      <!-- ! section title -->
+
+      <div class="owl-carousel owl-theme">
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-1.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-2.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Top</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-3.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-4.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-5.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 28.95</span>
+                <s class="clr-2 fs-13">$ 31.95</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="product border shadow-sm pb-3">
+            <div class="product-img position-relative overflow-hidden">
+              <a href="./single-product.html"><img src="./img/product/product-6.jpg" alt="" class="img-fluid"></a>
+              <span class="position-absolute start-0 fs-11 px-3 py-1 bg-or text-white fw-md" style="top: 20px;">SALE</span>
+              <div class="position-absolute cartmenu-effect" style="top: 10%;">
+                <ul class="list-unstyled">
+                  <li class="mb-2"><a href="#"><i class="bx bx-heart"></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-transfer'></i></a></li>
+                  <li class="mb-2"><a href="#"><i class='bx bx-show'></i></a></li>
+                </ul>  
+              </div>
+              <div class="d-grid position-absolute start-0 w-100 cart-effect">
+                <button class="btn shadow-none btn-primary fs-13 rounded-0"><i class="bx bx-cart me-1"></i>Add to cart</button>
+              </div>
+            </div>
+            <div class="content text-center pt-2">
+              <div class="tags">
+                <a href="./category.html" class="me-1 fs-11 clr-2">Clothing,</a>
+                <a href="./category.html" class="fs-11 clr-2">Women</a>
+              </div>
+              <div class="rating my-2">
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <span><i class="bx bxs-star clr-rat"></i></span>
+                <i class='bx bxs-star-half clr-rat'></i>
+              </div>
+              <h5 class="fs-15 fw-md"><a href="./single-product.html">Fine-knit sweater</a></h5>
+              <div class="price">
+                <span class="clr-1 fs-15 fw-md me-2">$ 45.99</span>
+                <s class="clr-2 fs-13">$ 38.75</s>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- ! new collection carousel -->
+
+
+
+  <!-- spring collection -->
+  <section class="spring-collection py-5  " id="spring-collection">
+    <div class="container d-flex align-items-center h-100 justify-content-lg-end">
+      <div class="text-start content-box d-inline-block bg-light pe-lg-5 p-4 shadow">
+        <h2 class="text-dark fw-md pt-4 pb-3">
+          Get -50% from <br>Summer Collection
+        </h2>
+        <h6 class="fs-13 fw-md">Hurry up! Limited time offer</h6>
+        <div class="countdown justify-content-around d-flex py-4">
+          <div class="box">
+            <span class="fs-3 clr-1 fw-md" id="day">00</span>
+            <span class="fs-13 clr-2 text-uppercase">days</span>
+          </div>
+          <div class="box">
+            <span class="fs-3 clr-1 fw-md" id="hour">00</span>
+            <span class="fs-13 clr-2 text-uppercase">hours</span>
+          </div>
+          <div class="box">
+            <span class="fs-3 clr-1 fw-md" id="minute">00</span>
+            <span class="fs-13 clr-2 text-uppercase">minutes</span>
+          </div>
+          <div class="box">
+            <span class="fs-3 clr-1 fw-md" id="second">00</span>
+            <span class="fs-13 clr-2 text-uppercase">seconds</span>
+          </div>
+        </div>
+        <a href="./shop.html" class="btn btn-primary rounded-0 px-4 py-2 fs-13">Shop Now</a>
+      </div>
+    </div>
+  </section>
+  <!-- ! spring collection -->
+
+
+  <!-- new blog posts -->
+  <section class="blog-post py-5" id="blog-post">
+    <div class="container">
+      
+      <!-- section title -->
+      <div class="section-title text-center py-4">
+        <h2 class="fw-md clr-3 mt-3">New Blog Posts</h2>
+        <p class="fs-15 clr-2">Read Today’s News.</p>
+      </div>
+      <!-- ! section title -->
+
+      <div class="row py-4">
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="post shadow">
+            <div class="post-image position-relative overflow-hidden">
+              <a href="./single-blog.html"><img src="./img/blog/blog-home-1.jpg" alt="" class="img-fluid"></a>
+              <div class="post-date position-absolute px-4 py-2 bg-light" style="top: 15px;left: 15px;">
+                <span class="fs-5 fw-md d-block clr-3" style="letter-spacing: 1px;">17</span>
+                <span class="fs-11 fw-md d-block clr-2 my-1 text-uppercase">Jun</span>
+              </div>
+            </div>
+            <div class="post-content text-center my-2 px-3">
+              <h3 class="mt-3 fs-5 fw-md"><a href="./single-blog.html" class="post-title">Make your Marketing website</a></h3>
+              <p class="fs-15 clr-2 my-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              </p>
+              <a href="./single-blog.html" class="btn btn-outline-dark rounded-0 fs-13 px-4 py-2">Read More</a>
+            </div>
+            <div class="post-like-share pb-3 pt-3 text-end px-3">
+              <ul class="list-unstyled p-0 m-0">
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-show fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-view">280</span></a>
+                </li>
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-heart fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-like">230</span></a>
+                </li>
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-comment fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-comment">181</span></a>
+                </li>
+                <li class="d-inline-block">
+                  <a href="#"><i class="bx bx-share fs-5 clr-2"></i><span class="fs-11 text-danger ms-1" data-id="post-share">115</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="post shadow">
+            <div class="post-image position-relative overflow-hidden">
+              <a href="./single-blog.html"><img src="./img/blog/blog-home-2.jpg" alt="" class="img-fluid"></a>
+              <div class="post-date position-absolute px-4 py-2 bg-light" style="top: 15px;left: 15px;">
+                <span class="fs-5 fw-md d-block clr-3" style="letter-spacing: 1px;">17</span>
+                <span class="fs-11 fw-md d-block clr-2 my-1 text-uppercase">Jun</span>
+              </div>
+            </div>
+            <div class="post-content text-center my-2 px-3">
+              <h3 class="mt-3 fs-5 fw-md"><a href="./single-blog.html" class="post-title">Make your Marketing website</a></h3>
+              <p class="fs-15 clr-2 my-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              </p>
+              <a href="./single-blog.html" class="btn btn-outline-dark rounded-0 fs-13 px-4 py-2">Read More</a>
+            </div>
+            <div class="post-like-share pb-3 pt-3 text-end px-3">
+              <ul class="list-unstyled p-0 m-0">
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-show fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-view">280</span></a>
+                </li>
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-heart fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-like">230</span></a>
+                </li>
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-comment fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-comment">181</span></a>
+                </li>
+                <li class="d-inline-block">
+                  <a href="#"><i class="bx bx-share fs-5 clr-2"></i><span class="fs-11 text-danger ms-1" data-id="post-share">115</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="post shadow">
+            <div class="post-image position-relative overflow-hidden">
+              <a href="./single-blog.html"><img src="./img/blog/blog-home-3.jpg" alt="" class="img-fluid"></a>
+              <div class="post-date position-absolute px-4 py-2 bg-light" style="top: 15px;left: 15px;">
+                <span class="fs-5 fw-md d-block clr-3" style="letter-spacing: 1px;">17</span>
+                <span class="fs-11 fw-md d-block clr-2 my-1 text-uppercase">Jun</span>
+              </div>
+            </div>
+            <div class="post-content text-center my-2 px-3">
+              <h3 class="mt-3 fs-5 fw-md"><a href="./single-blog.html" class="post-title">Make your Marketing website</a></h3>
+              <p class="fs-15 clr-2 my-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+              </p>
+              <a href="./single-blog.html" class="btn btn-outline-dark rounded-0 fs-13 px-4 py-2">Read More</a>
+            </div>
+            <div class="post-like-share pb-3 pt-3 text-end px-3">
+              <ul class="list-unstyled p-0 m-0">
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-show fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-view">280</span></a>
+                </li>
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-heart fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-like">230</span></a>
+                </li>
+                <li class="d-inline-block me-3">
+                  <a href="#"><i class="bx bx-comment fs-5 clr-2"></i><span class="fs-11 clr-2 ms-1" data-id="post-comment">181</span></a>
+                </li>
+                <li class="d-inline-block">
+                  <a href="#"><i class="bx bx-share fs-5 clr-2"></i><span class="fs-11 text-danger ms-1" data-id="post-share">115</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </section>
+  <!-- ! new blog posts -->
+
+
+
+  <!-- our policy -->
+  <section class="policy bg-light py-4 border-top" id="policy">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="icon-box d-flex align-items-center">
+            <i class="bx bxs-truck me-3 fs-1"></i>
+            <div class="">
+              <h5 class="clr-3 fs-15 fw-md mb-1">Free shipping</h5>
+              <p class="fs-13 clr-2 mb-0">Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <div class="icon-box d-flex align-items-center">
+            <i class="bx bx-headphone me-3 fs-1"></i>
+            <div class="">
+              <h5 class="clr-3 fs-15 fw-md mb-1">Contact us 24/7</h5>
+              <p class="fs-13 clr-2 mb-0">Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="icon-box d-flex align-items-center">
+            <i class="bx bx-transfer me-3 fs-1"></i>
+            <div class="">
+              <h5 class="clr-3 fs-15 fw-md mb-1">30 Days Return</h5>
+              <p class="fs-13 clr-2 mb-0">Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 ">
+          <div class="icon-box d-flex align-items-center">
+            <i class="bx bx-check-shield me-3 fs-1"></i>
+            <div class="">
+              <h5 class="clr-3 fs-15 fw-md mb-1">100% Secure Payment</h5>
+              <p class="fs-13 clr-2 mb-0">Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ! our policy -->
+
+
+
+  </main>
+
+
+  <!-- footer -->
+  <footer class="footer py-4 bg-3" id="footer">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-about">
+            <a href="./index.html" class="footer-logo"><img src="./img/logo.png" class="img-fluid" alt=""></a>
+            <ul class="list-unstyled m-0">
+              <li class="mt-2"><span class="fs-15 text-light">301 The Greenhouse London,<br>E2 8DY UK</span></li>
+              <li class="mt-2"><a href="mailto:support@domain.com" class="text-light fs-15">support@domain.com</a></li>
+              <li class="mt-2"><a href="tel:" class="text-light fs-15">820-885-3321</a></li>
+              <li class="mt-4">
+                <a href="#" class="me-1"><i class="bx bxl-facebook text-light px-3 py-2 rounded fs-5"></i></a>
+                <a href="#" class="me-1"><i class="bx bxl-linkedin text-light px-3 py-2 rounded fs-5"></i></a>
+                <a href="#" class="me-1"><i class="bx bxl-twitter text-light px-3 py-2 rounded fs-5"></i></a>
+                <a href="#" class=""><i class="bx bxl-github text-light px-3 py-2 rounded fs-5"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-2 mb-4 mb-lg-0">
+          <h6 class="text-white fw-md">SUPPORT</h6>
+          <ul class="list-unstyled m-0 mt-4 p-0">
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Help</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Contact Us</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Feedback</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Unsubscribe</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Reservations</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h6 class="text-white fw-md">POLICIES</h6>
+          <ul class="list-unstyled m-0 mt-4 p-0">
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Privacy Policy</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Terms of use</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Gift card conditions</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Shipping</a></li>
+            <li class="mb-2"><a href="#" class="fw-normal fs-15">Return</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 ">
+          <h6 class="text-white fw-md">STAY UP TO DATE</h6>
+          <p class="fs-15 text-light mt-4 fw-normal">Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan.</p>
+
+          <form action="" class="">
+            <div class="row my-3">
+              <div class="col-md-8">
+                <input type="email" name="email" placeholder="Email" id="footer-email" class="form-control rounded-0 shadow-none bg-transparent border email">
+              </div>
+              <div class="col-md-4 mt-3 mt-md-0 p-0">
+                <div class="d-grid">
+                  <input type="submit" value="Gte Started" class="btn btn-primary rounded-0 shadow-none fs-15 fw-md form-control">
+                </div>
+              </div>
+            </div>
+          </form>
+          <p class="text-light mt-2 fs-15 fw-normal">New UI kits or big discounts. Never spam.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- ! footer -->
+
+
+  <!-- copyright -->
+  <section class="copyright py-3 border-top border-secondary bg-3" id="copyright">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <p class="fs-15 text-light fw-normal p-0 m-0">&copy; <span id="current-year"></span> By Ashik Ali</p>
+        <img src="./img/payments.png" alt="" class="img-fluid payment">
+      </div>
+    </div>
+  </section>
+  <!-- ! copyright -->
+
+
+
+
+
+
+
+  <!-- JQ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- BS js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <!-- VB -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.3/venobox.min.js" integrity="sha512-zBTnX97k269iewUwROiWwO82A6uXO4lcjq0Z4xnvO+qAblC/RMQRUu8fQVKtSFhPNKD5Xzh9PMoZG7+LnmH1Hg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- IST -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- WaP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- OC -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Custom JS -->
+  <script src="./js/index.js"></script>
+  <script src="./js/cart.js"></script>
+</body>
+</html>
