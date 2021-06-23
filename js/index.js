@@ -13,6 +13,7 @@ $(document).ready(function(){
       0:{
         items:1,
         nav:false,
+        dots:true
       },
       567:{
         items: 2,

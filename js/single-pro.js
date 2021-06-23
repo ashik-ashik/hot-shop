@@ -11,7 +11,7 @@ $(document).ready(function(){
       asNavFor: '.sliderItem'
     });
     $('.sliderItem').slick({
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       asNavFor: '.slider-for',
       dots: false,
@@ -33,7 +33,7 @@ $(document).ready(function(){
             arrows: false,
             centerMode: true,
             centerPadding: '40px',
-            slidesToShow: 1
+            slidesToShow: 2
           }
         }
       ]

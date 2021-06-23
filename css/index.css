@@ -66,6 +66,16 @@ a{
   font-size: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .site-logo{
+    width: 100px !important;
+  }
+  .navbar-toggler{
+    padding: 5px 10px !important;
+    border-radius: 0px !important;
+
+  }
+}
 
 
 /* carousel */
@@ -292,6 +302,30 @@ a{
   }
 }
 
+#product-description .nav-link{
+  font-size: 15px !important;
+}
+#product-description .nav-link{
+  border: none !important;
+}
+#product-description .nav-link.active{
+  background: var(--color-3) !important;
+  color: #fff !important;
+  border: none !important;
+}
+@media screen and (max-width:768px) {
+  #product-description .nav-link{
+    font-size: 13px !important;
+  }
+  .reviewed-comment{
+    font-size: 13px !important;
+  }
+  .pro-description p,
+  .pro-description li{
+    font-size: 13px !important;
+  }
+}
+
 
 /* review daynamic */
 
@@ -362,6 +396,29 @@ a{
   color: var(--color-1) !important;
 }
 
+@media screen and (max-width: 480px){
+  #overview .nav-link{
+    font-size: 13px !important;
+  }
+  .profileName >h4{
+    font-size: 16px !important;
+  }
+  .myorder-status .nav-link{
+    font-size: 13px !important;
+  }
+
+}
+
+@media screen and (max-width:1024px) {
+  #cart-pop-up .cart-btn .btn{
+    padding: 7px 9px !important;
+    line-height: 13px;
+    height: 37px;
+    margin-top: 9px;
+  }
+}
+
+
 
 
 /* shopping page */
@@ -391,6 +448,11 @@ a{
 #showLayout .nav-item > .nav-link.active{
   background: var(--color-3);
   color: #fff !important;
+}
+
+#productLayoutRowContent .short-desc{
+  text-align: justify;
+  padding-right: 10px;
 }
 
 
@@ -551,7 +613,9 @@ a.my-btn-light{
 
 /* category page design */
 .categories .alert{
-  background: url(../img/category/alert-bg.jpg);
+  background: url(../img/category/alert-bg.jpg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -578,3 +642,30 @@ a.my-btn-light{
 .ok{
   border: 1px solid #00a349 !important;
 }
+
+
+/* account page */
+@media screen and (max-width:768px) {
+  #overview-order table th,
+  #overview-ticket table th{
+    font-size: 14px !important;
+    font-weight: 500;
+  }
+  #overview-order table td,
+  #overview-ticket table td{
+    font-size: 12px !important;
+    font-weight: 400;
+  }
+  .tracking-id{
+    font-size: 16px !important;
+  }
+  .subs h4{
+    font-size: 16px !important;
+  }
+
+  input{
+    font-size: 13px !important;
+  }
+}
+
+
