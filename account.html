@@ -432,15 +432,15 @@
                 <tbody class="px-3">
                   <tr>
                     <td class="text-start py-2 clr-2 fw-md">Subtotal</td>
-                    <td class="text-end py-2 clr-rat">$ <span class="subtotal" id="cartSubtotal">270</span></td>
+                    <td class="text-end py-2 clr-rat">$ <span class="subtotal">270</span></td>
                   </tr>
                   <tr>
                     <td class="text-start py-2 clr-2 fw-md">Taxes</td>
-                    <td class="text-end py-2 clr-rat">$ <span class="subtotal" id="cartSubtotal">2.2</span></td>
+                    <td class="text-end py-2 clr-rat">$ <span class="subtotal">2.2</span></td>
                   </tr>
                   <tr>
                     <td class="text-start py-3 clr-3 fw-md">Grand Total</td>
-                    <td class="text-end py-3 clr-rat fw-md">$ <span class="subtotal" id="cartSubtotal">272.2</span></td>
+                    <td class="text-end py-3 clr-rat fw-md">$ <span class="subtotal">272.2</span></td>
                   </tr>
                 </tbody>
               </table>
@@ -815,6 +815,7 @@
                                       <a href="./category.html" class="clr-2 ms-1">Top,</a>
                                       <a href="./category.html" class="clr-2 ms-1">Shoe</a>
                                     </li>
+                                    </ul>
                                 </div>
                               </div>
                             </div>
@@ -1069,12 +1070,12 @@
                       </div>
                       <div class="row my-4">
                         <div class="col-md-6 mb-3 mb-md-0">
-                          <label for="update-profile-Lname" class="fs-13 fw-normal clr-2 mb-2">Mobile No.<span class="text-danger">*</span></label>
-                          <input type="text" name="update-profile-Lname" id="update-profile-Lname" class="form-control fs-15 shadow-none rounded-0 border bg-transparent py-2" placeholder="Mobile">
+                          <label for="update-profile-mobile" class="fs-13 fw-normal clr-2 mb-2">Mobile No.<span class="text-danger">*</span></label>
+                          <input type="text" name="update-profile-mobile" id="update-profile-mobile" class="form-control fs-15 shadow-none rounded-0 border bg-transparent py-2" placeholder="Mobile">
                         </div>
                         <div class="col-md-6 mb-3 mb-md-0">
-                          <label for="update-profile-email" class="fs-13 fw-normal clr-2 mb-2">Landline No.</label>
-                          <input type="email" name="update-profile-email" id="update-profile-email" class="form-control fs-15 shadow-none rounded-0 border bg-transparen py-2t" placeholder="Landline">
+                          <label for="update-profile-land" class="fs-13 fw-normal clr-2 mb-2">Landline No.</label>
+                          <input type="text" name="update-profile-land" id="update-profile-land" class="form-control fs-15 shadow-none rounded-0 border bg-transparen py-2t" placeholder="Landline">
                         </div>
                       </div>
                       <input type="submit" value="Sava Changes" class="btn btn-primary shadow-none rounded-0 px-4 py-2 fs-6 fw-md">
@@ -1090,8 +1091,8 @@
                     <input type="password" name="oldPassword" id="oldPassword" class="form-control shadow-none py-2 rounded-0 fs-15 border bg-transparent" placeholder="Password">
                     <div class="row my-4">
                       <div class="col-md-6 mb-3 mb-md-0">
-                        <label for="newPassword" class="fs-13 fw-normal clr-2 mb-2">New Password</label>
-                        <input type="password" name="newPassword" id="newPassword" class="form-control shadow-none py-2 rounded-0 fs-15 border bg-transparent" placeholder="Password">
+                        <label for="newPasswordUpdate" class="fs-13 fw-normal clr-2 mb-2">New Password</label>
+                        <input type="password" name="newPassword" id="newPasswordUpdate" class="form-control shadow-none py-2 rounded-0 fs-15 border bg-transparent" placeholder="Password">
                       </div>
                       <div class="col-md-6 mb-3 mb-md-0">
                         <label for="confirmPasswordUpdate" class="fs-13 fw-normal clr-2 mb-2">Retype New Password</label>
@@ -1299,93 +1300,7 @@
               <!-- ! payment method -->
 
 
-              <!-- order-status method -->
-              <div class="tab-pane fade" id="v-pills-order-status" role="tabpanel" aria-labelledby="Dashboard-order-status">
-              
-                
-                <!-- payment ways -->
-                <div class="row">
-                  <div class="col-lg-6 mb-3 mb-lg-0">
-                    <div class="border shadow-sm">
-                      <div class="heading d-flex justify-content-between align-items-center py-2 border-bottom">
-                        <h5 class="fs-6 clr-3 fw-md m-0 px-3 py-3 m-0">Visa Card</h5>
-                        <img src="./img/card-visa.png" alt="" class="img-fluid me-3" style="height: 30px;">
-                      </div>
-                      <ul class="m-0 p-3 list-unstyled">
-                        <li class="fs-13 clr-2 fw-normal mt-2 text-uppercase">CARD NUMBER</li>
-                        <li class="fs-15 clr-3 fw-md fw-normal mt-2">xxxx xxxx xxxx 5050</li>
-                      </ul>
-                      <table class="table px-">
-                        <tbody>
-                          <tr>
-                            <td class="text-uppercase fs-13 clr-2" style="letter-spacing: 1px;">name of card</td>
-                            <td class="text-uppercase fs-13 clr-2" style="letter-spacing: 1px;">validity</td>
-                          </tr>
-                          <tr style="border-color: transparent !important;">
-                            <th scope="row">Md Ashik Ali</th>
-                            <th scope="row">00/00</th>
-                          </tr>
-                        </tbody>
-                      </table>
-
-                    </div>
-                  </div>
-                  <div class="col-lg-6">
-                    <div class="border shadow-sm">
-                      <div class="heading d-flex justify-content-between align-items-center py-2 border-bottom">
-                        <h5 class="fs-6 clr-3 fw-md m-0 px-3 py-3 m-0">Master Card</h5>
-                        <img src="./img/card-master.png" alt="" class="img-fluid me-3" style="height: 30px;">
-                      </div>
-                      <ul class="m-0 p-3 list-unstyled">
-                        <li class="fs-13 clr-2 fw-normal mt-2 text-uppercase">CARD NUMBER</li>
-                        <li class="fs-15 clr-3 fw-md fw-normal mt-2">xxxx xxxx xxxx 5050</li>
-                      </ul>
-                      <table class="table px-3">
-                        <tbody>
-                          <tr>
-                            <td class="text-uppercase fs-13 clr-2" style="letter-spacing: 1px;">name of card</td>
-                            <td class="text-uppercase fs-13 clr-2" style="letter-spacing: 1px;">validity</td>
-                          </tr>
-                          <tr  style="border-color: transparent !important;">
-                            <th scope="row">Md Ashik Ali</th>
-                            <th scope="row">00/00</th>
-                          </tr>
-                        </tbody>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-                <!-- payment ways -->
-
-                <!-- add new payment way -->
-                <div class="border mt-4">
-                  <h5 class="fs-6 clr-3 fw-md m-0 px-3 border-bottom py-3 m-0">Add New Address</h5>
-                  <form action="" class="form my-3 px-3">
-                    <div class="row my-4">
-                      <div class="col-md-6 mb-3 mb-md-0">
-                        <input type="text" name="newCardName" id="newCardName" class="form-control shadow-none py-2 rounded-0 fs-15 border bg-transparent" placeholder="Card Name">
-                      </div>
-                      <div class="col-md-6 mb-3 mb-md-0">
-                        <input type="text" name="newCardUserName" id="newCardUserName" class="form-control shadow-none py-2 rounded-0 fs-15 border bg-transparent" placeholder="Your Name">
-                      </div>
-                    </div>
-                    <div class="row my-4">
-                      <div class="col-md-4 mb-3 mb-md-0">
-                        <input type="text" name="expiryDate" id="expiryDate" class="form-control shadow-none py-2 rounded-0 fs-15 border bg-transparent" placeholder="Expiry Date">
-                      </div>
-                      <div class="col-md-3 mb-3 mb-md-0">
-                        <input type="text" name="newCVC" id="newCVC" class="form-control shadow-none py-2 rounded-0 fs-15 border bg-transparent" placeholder="CVC">
-                      </div>
-                      <div class="col-md-5 mb-3 mb-md-0">
-                        <input type="submit" value="Register this Card" id="addPaymentDard" class="form-control shadow-none py-2 rounded-0 fs-15 btn btn-primary">
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <!-- ! add new payment way -->
-                
-              </div> 
-              <!-- ! order-status method -->
+             
 
               <!-- logout -->
               <!-- <div class="tab-pane fade" id="v-pills-logout" role="tabpanel" aria-labelledby="Dashboard-logout">
